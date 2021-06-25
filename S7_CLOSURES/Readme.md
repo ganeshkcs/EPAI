@@ -83,7 +83,7 @@ This is the extension of previous task and goal here is to modify it such that n
 
 
 
-## FUNCTION TEST CASES :thinking:
+## FUNCTION TEST CASES :
 
 * test_len(): Checks if the Docstring length is valid or not.
 
