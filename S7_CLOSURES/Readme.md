@@ -80,7 +80,7 @@ This is the extension of previous task and goal here is to modify it such that n
             count_dict[fn.__name__] = count
             return fn(*args)
 
-
+### Closures Code : [https://github.com/ganeshkcs/EPAI/blob/master/S7_CLOSURES/closures.py]
 
 
 ## FUNCTION TEST CASES :
@@ -110,4 +110,6 @@ This is the extension of previous task and goal here is to modify it such that n
 * test_docstrings(): Checks if the functions have docstring or not. '
 
 * test_invalid_docstrings(): Checks if the docstrings contain any irrelevant symbols. 
+
+### Unit Test Cases : [https://github.com/ganeshkcs/EPAI/blob/master/S7_CLOSURES/test_closures.py]
 
