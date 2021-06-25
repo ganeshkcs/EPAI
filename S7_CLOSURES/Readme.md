@@ -79,8 +79,10 @@ This is the extension of previous task and goal here is to modify it such that n
             print(f'The function {fn.__name__} has been called {count} times.')
             count_dict[fn.__name__] = count
             return fn(*args)
+	    
 
-### Closures Code : [https://github.com/ganeshkcs/EPAI/blob/master/S7_CLOSURES/closures.py]
+## Closures Code : 
+[https://github.com/ganeshkcs/EPAI/blob/master/S7_CLOSURES/closures.py]
 
 
 ## FUNCTION TEST CASES :
@@ -111,5 +113,6 @@ This is the extension of previous task and goal here is to modify it such that n
 
 * test_invalid_docstrings(): Checks if the docstrings contain any irrelevant symbols. 
 
-### Unit Test Cases : [https://github.com/ganeshkcs/EPAI/blob/master/S7_CLOSURES/test_closures.py]
+## Unit Test Cases : 
+[https://github.com/ganeshkcs/EPAI/blob/master/S7_CLOSURES/test_closures.py]
 
