@@ -20,7 +20,7 @@ def test_readme_exists():
 
 
 def test_readme_contents():
-    readme = open("README.md", "r")
+    readme = open("https://github.com/ganeshkcs/EPAI/blob/master/Sequence-types/polygon_class/README.md", "r")
     readme_words = readme.read().split()
     readme.close()
     assert len(readme_words) >= 500, "Make your README.md file interesting! Add atleast 500 words"
@@ -28,7 +28,7 @@ def test_readme_contents():
 
 def test_readme_proper_description():
     READMELOOKSGOOD = True
-    f = open("README.md", "r", encoding="utf-8")
+    f = open("https://github.com/ganeshkcs/EPAI/blob/master/Sequence-types/polygon_class/README.md", "r", encoding="utf-8")
     content = f.read()
     f.close()
     for c in README_CONTENT_CHECK_FOR:
