@@ -16,7 +16,7 @@ README_CONTENT_CHECK_FOR = [
 
 
 def test_readme_exists():
-    assert os.path.isfile("README.md"), "README.md file missing!"
+    assert os.path.isfile("https://github.com/ganeshkcs/EPAI/blob/master/Sequence-types/polygon_class/README.md"), "README.md file missing!"
 
 
 def test_readme_contents():
